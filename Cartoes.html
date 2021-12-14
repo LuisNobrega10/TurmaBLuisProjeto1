@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+ <div class="loaders">
+ </div>
+    <div class="cards1">
+        <div class="box">
+            <div class="imgBx">
+                <img src="Foto1.png">
+            </div>
+            <div class="content">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, est.
+                     Commodi, consectetur culpa? Consectetur nulla, illum et officiis, nam earum asperiores porro nisi harum expedita ipsa sed id minus iusto?</p>
+                <a href="#">+ INFO</a>
+             </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="Foto2.jpg">
+            </div>
+            <div class="content">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, est.
+                     Commodi, consectetur culpa? Consectetur nulla, illum et officiis, nam earum asperiores porro nisi harum expedita ipsa sed id minus iusto?</p>
+                <a href="#">+ INFO</a>
+             </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="Foto3.jpg">
+            </div>
+            <div class="content">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, est.
+                     Commodi, consectetur culpa? Consectetur nulla, illum et officiis, nam earum asperiores porro nisi harum expedita ipsa sed id minus iusto?</p>
+                <a href="#">+ INFO</a>
+             </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="Foto4.jpg">
+            </div>
+            <div class="content">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, est.
+                     Commodi, consectetur culpa? Consectetur nulla, illum et officiis, nam earum asperiores porro nisi harum expedita ipsa sed id minus iusto?</p>
+                <a href="#">Read More</a>
+             </div>
+        </div>
+    </div>
+    <div class="cards2">
+        <div class="box2">
+            <div class="face face1">
+                <div class="content">
+                    <h2>lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, est.
+                     Commodi, consectetur culpa? Consectetur nulla, illum et officiis, nam earum asperiores porro nisi harum expedita ipsa sed id minus iusto?</p>
+                
+             </div>
+         </div>
+         <div class="face face2">
+             <h2>01</h2>
+         </div>
+        </div>
+        <div class="box2">
+            <div class="face face1">
+                <div class="content">
+                    <h2>lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, est.
+                     Commodi, consectetur culpa? Consectetur nulla, illum et officiis, nam earum asperiores porro nisi harum expedita ipsa sed id minus iusto?</p>
+                
+             </div>
+         </div>
+         <div class="face face2">
+             <h2>02</h2>
+         </div>
+        </div>
+        <div class="box2">
+            <div class="face face1">
+                <div class="content">
+                    <h2>lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, est.
+                     Commodi, consectetur culpa? Consectetur nulla, illum et officiis, nam earum asperiores porro nisi harum expedita ipsa sed id minus iusto?</p>
+                
+             </div>
+         </div>
+         <div class="face face2">
+             <h2>03</h2>
+         </div>
+        </div>
+        <div class="box2">
+            <div class="face face1">
+                <div class="content">
+                    <h2>lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, est.
+                     Commodi, consectetur culpa? Consectetur nulla, illum et officiis, nam earum asperiores porro nisi harum expedita ipsa sed id minus iusto?</p>
+                
+             </div>
+         </div>
+         <div class="face face2">
+             <h2>04</h2>
+         </div>
+        </div>
+    </div>
+        <div class="header1">
+            <div class="com-imagem">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fuga totam odio iste mollitia ullam,
+                     commodi alias labore earum, unde aut atque corrupti dignissimos modi exercitationem. Non magni repellat vel.</h2>
+            </div>
+            <div class="sem-imagem">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus fuga totam odio iste mollitia ullam,
+                     commodi alias labore earum, unde aut atque corrupti dignissimos modi exercitationem. Non magni repellat vel.</h2>
+            </div>
+        </div>
+    
+<style>
+    .header1{
+        position:relative;
+        font-family:sans-serif;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        overflow: hidden;
+    }
+.header1 .com-imagem,
+.header1 .sem-imagem{
+    position: relative;
+    width: 50%;
+    background: #1B335f;
+    overflow:hidden;
+}
+
+.header1 .com-imagem{
+    background: url(Foto3.jpg);
+    background-size:cover;
+}
+.header1 .com-imagem h2,
+.header1 .sem-imagem h2{
+    position: absolute;
+    line-height: 100vh;
+    white-space:nowrap;
+    font-size:12em
+}
+.header1 .com-imagem h2{
+          color:transparent;
+        -webkit-text-stroke:2px;
+        -webkit-text-stroke-color: #fff;
+        left:100%;
+        animation:animate-text 60s linear infinite;
+
+
+}
+.header1 .sem-imagem h2{
+color:#fff;
+animation: animate-text 60s linear infinite;
+}
+@keyframes animate-text{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform:translateX(-100%)
+    }
+}
+
+    .cards2{
+        width: 1200px;
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-gap: 5px;
+        margin:50px 0;
+        font-family: consolas;
+    }
+    .cards2 .box2{
+        position: relative;
+        width: 280px;
+        height: 400px;
+        margin: 0 auto;
+        background: white;
+        box-shadow: 5px 5px 15px black;
+      
+    }
+    .cards1{
+        position: relative;
+        width: 1200px;
+        display:flex;
+        justify-content: space-around;
+        margin:20px 0;
+        font-family: consolas;
+    }
+    .cards1 .box{
+        position: relative;
+        width: 280px;
+        height: 400px;
+        margin: 20px 0;
+        box-sizing:border-box;
+        box-shadow: 5px 5px 15px black;
+        overflow:hidden;
+    }
+    .cards1 .box .imgBx{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin: 20px 0;
+        background: black;
+        clip-path: circle(400px at center 100px);
+        transition: 0.5s;
+        transition-delay: 0.5s;
+    }
+    .cards1 .box:hover .imgBx{
+        clip-path:circle(80px at center 100px);
+        transition-delay: 0s;
+    }
+    .cards1 .box .content{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 55%;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .cards1 .box .content h2{
+        margin: 0;
+        padding: 0;
+        }
+    .cards1 .box .content a{
+        text-decoration: none;
+        background: black;
+        color: white;
+        padding: 5px;
+        display: inline-block;
+    }
+    .cards1 .box .imgBx img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        }
+    .cards1 .box .content h2,
+    .cards1 .box .content p,
+    .cards1 .box .content a{
+        opacity: 0;
+        transition: 0.5s;
+        transform: translateY(20px);
+    }
+    .cards1 .box .content h2{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.5s;
+    }
+    .cards1 .box .content p{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.7s;
+    }
+    .cards1 .box .content a{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.9s;
+    }
+
+    .cards2 .box2 .face{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards2 .box2 .face.face1{
+        box-sizing:border-box;
+        padding: 20px;
+    }
+    .cards2 .box2 .face.face1 h2{
+        margin:0;
+        padding: 0;
+    }
+    .cards2 .box2 .face.face2{
+        background: black;
+        transition: 0.5s;
+    }
+    .cards2 .box2:hover .face.face2{
+        height: 60px;
+    }
+
+.cards2 .box2:nth-child(1) .face.face2{
+    background: linear-gradient(45deg,#3503ad,#f7308c);
+}
+.cards2 .box2:nth-child(2) .face.face2{
+    background: linear-gradient(45deg,#fcff40,#1ed8e6);
+}
+.cards2 .box2:nth-child(3) .face.face2{
+    background: linear-gradient(45deg,#e7145a,#e3f772);
+}
+.cards2 .box2:nth-child(4) .face.face2{
+    background: linear-gradient(45deg,#000000,#6e6e6e);
+}
+.cards2 .box2 .face.face2::before{
+content:'';
+position: absolute;
+top:0;
+left: 0;
+width: 50%;
+height: 100%;
+background: rgba(255, 255, 255, .1);
+}
+.cards2 .box2 .face.face2 h2{
+margin:0;
+padding:0;
+font-size: 10em;
+color:white;
+transition:0.5s;
+text-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+.cards2 .box2:hover .face.face2 h2{
+    font-size: 2em;
+}
+
+
+
+</style>
+
+
+</body>
+</html>

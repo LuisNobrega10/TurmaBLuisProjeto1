@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" href="style-inlineBlock.css">
+ <title>Exercicio 3: Layouts</title>
+</head>
+<body>
+    <h1>Grid</h1>
+    <section id="grid">
+    <div class="um">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non,
+        consequatur debitis eius doloremque dolor in voluptates labore. Vel provident laboriosam
+        ipsam eveniet deserunt repellat odio libero vero animi aut obcaecati quam, aspernatur
+        placeat excepturi similique pariatur odit. Nesciunt delectus sed dolorum quia officiis
+        nihil dicta deleniti eius magni ea.</div>
+    <div class="dois">Laudantium optio at ratione praesentium qui dicta animi Vel provident laboriosam
+        ipsam eveniet deserunt repellat odio libero vero animi aut obcaecati quam, aspernatur
+        placeat excepturi similique pariatur odit</div>
+    <div class="tres">Inventore ab officia fugit dolorem atque totam magnam Nesciunt delectus sed dolorum quia officiis
+        nihil dicta deleniti eius magni ea.</div>
+    </section>
+    
+ <style>
+     
+ #grid{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 160px 100%;
+gap: 5px;
+}
+.um{
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 3;
+}
+.dois{
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+.tres{
+grid-column: 3/4;
+grid-row: 1/2;
+}

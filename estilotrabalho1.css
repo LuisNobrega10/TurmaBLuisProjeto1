@@ -1,0 +1,66 @@
+h1{
+    color:rgb(0, 110, 255);
+    font-size: 35px;
+}
+h3{
+color: cornflowerblue;
+font-size: 25px;
+
+
+}
+h2{
+color: cornflowerblue;
+font-size: 35px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ol li{
+font-size: 15px;
+
+
+}
+.inicio{
+    
+    background-color: rgb(228, 227, 227);
+    width: 60%;
+    
+    padding: 20px;
+    margin: auto;
+      }
+header{
+
+    background-color: cornsilk;
+    border-top: solid 3px white;
+}
+.container{
+    width: 60%;
+    margin: auto;
+}
+a{
+    color:rgb(0, 110, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.relacionados{
+    background-color: rgb(207, 207, 207);
+    width: 500px;
+    border-top: solid 3px rgb(105, 63, 255);
+    border-bottom:solid 3px rgb(105, 63, 255); 
+}
+footer{
+   text-align: right;
+
+}
+ul p{
+    font-size: 12px;
+}
+
+.relacionados h4{
+    text-align: center;
+    font-size: 18px;
+}
+footer{
+    width: 500px;
+}

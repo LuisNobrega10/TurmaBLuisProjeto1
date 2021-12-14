@@ -1,0 +1,82 @@
+body {
+    background: #f8f9fa;
+}
+.cor-principal {
+    color: rgb(0, 0, 0);
+    }
+   h1 {
+    font-weight: 900;
+    height: 36px;
+    margin: 0;
+    line-height: 0.8;
+    padding-right: 2px;
+    padding-inline-start: 12px;
+   
+    }
+
+    
+section .container .col-lg-12 {
+        background-color: white;
+       }
+       #carouselExampleIndicators{
+        color:black;
+        height: 210px;
+       
+       }
+       #carouselExampleIndicators .carousel-indicators li{
+        background-color: rgba(220, 20, 60, 0.3);
+        width: 50px;
+        height: 10px;
+       }
+       #carouselExampleIndicators .carousel-indicators .active{
+        background-color: crimson;
+       }
+       #carouselExampleIndicators .carousel-control-next-icon, .carousel-control-prev-icon{
+        background-color: crimson;
+       }
+       .carousel-caption{
+        color: black;
+        top: 0;
+        padding: 60px 130px;
+       }    
+
+
+       section .container .col-lg-12 .col-lg-6 { 
+        text-align: center;
+        padding: 2.5rem!important;
+        
+    }    
+   
+    section .container .col-lg-12 .col-lg-6 .social-media a { 
+        
+            padding: 0 10px;
+            color: white;
+            text-decoration: none;
+            }
+            section .container .col-lg-12 .col-lg-6 .social-media a:hover {
+            color: grey;
+            }
+        
+       
+       
+.home-food img {
+        border-radius: 50%;
+        max-width: 100%;
+        height: auto;
+        }
+footer {
+            color: white;
+            }
+           footer .container .col-lg-12{
+            background-color: rgb(82, 82, 82);
+            padding: 60px;
+           }
+           .social-media a {
+            padding: 0 10px;
+            color: white;
+            text-decoration: none;
+            }
+           .social-media a:hover {
+            color: grey;
+            }
+           
